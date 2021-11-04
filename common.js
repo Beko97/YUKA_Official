@@ -15,8 +15,13 @@ $(function() {
         dots: true,
     });
 
-    var windowH = parseInt($(window).height());//ファーストビューsp高さ調節
-    $('.mainVisual-sp').css('height', windowH);
+    //ファーストビューsp時高さ調節
+    var windowW = parseInt($(window).innerWidth());
+    if (windowW < 767) {
+        var windowH = parseInt($(window).height());
+        $('.mainVisual-sp').css('height', windowH);
+        console.log('できてる');
+    }
 
     $('.carousel_item').hover( //スライドのフィルター
         function() {
