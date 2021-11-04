@@ -15,6 +15,9 @@ $(function() {
         dots: true,
     });
 
+    var windowH = parseInt($(window).height());//ファーストビューsp高さ調節
+    $('.mainVisual-sp').css('height', windowH);
+
     $('.carousel_item').hover( //スライドのフィルター
         function() {
             $('.hoverImg').toggleClass('hoverImg-block');
