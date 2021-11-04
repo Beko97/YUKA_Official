@@ -20,7 +20,6 @@ $(function() {
     if (windowW < 767) {
         var windowH = parseInt($(window).height());
         $('.mainVisual-sp').css('height', windowH);
-        console.log('できてる');
     }
 
     $('.carousel_item').hover( //スライドのフィルター
