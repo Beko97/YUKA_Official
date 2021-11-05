@@ -215,7 +215,7 @@ a:hover {color: #ff5757}
 }
 
 .thumbnail {
-  background-color: #ffffff; /*ff5757*/
+  background-color: #ffffff;
 }
 
 .carouse_tit {
@@ -269,7 +269,7 @@ footer {padding-bottom: 10px;}
 
 /*sp_style*/
 @media screen and (max-width: 767px) {
-  .main-nav, .release_listBlock, .imgBlock_jacketB, .imgBlock_jacketC {
+  .release_listBlock, .imgBlock_jacketB, .imgBlock_jacketC {
     display: none;
   }
 
@@ -382,7 +382,7 @@ footer {padding-bottom: 10px;}
 
   .release_text, .release_text-bold {
     width: 275px;
-    margin: 16px auto 0 auto; /*12pxはpcと同じまま*/
+    margin: 16px auto 0 auto;
   }
 
   .release_text {font-size: 2rem;}

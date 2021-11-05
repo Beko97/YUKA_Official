@@ -49,8 +49,7 @@ $(function() {
     buttonChange('#hoverButton3');
 //hamburger
     $('#hamburger').on('click', function(){
-        $('span', this).toggleClass('clicked');
-        $('.main_nav').toggleClass('clicked');
+        $('span, .main_nav').toggleClass('clicked');
     });
 });
 
